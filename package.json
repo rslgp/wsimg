@@ -1,12 +1,8 @@
 {
   "name": "wsimg",
   "version": "0.0.1",
-  "main": "server.js",
+  "main": "index.js",
   "dependencies": {
-    "connect": "^3.7.0",
-    "serve-static": "^1.14.1"
-  },
-  "scripts": {
-    "start": "node --max-old-space-size=436 server.js" 
+    "serve": "^1.4.0"
   }
 }
