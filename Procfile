@@ -1,1 +1,1 @@
-web: node_modules/serve/bin/serve --port 80
+web: node app.js
