@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
-    "serve": "^1.4.0"
+    "serve": "^11.2.0"
   }
 }
