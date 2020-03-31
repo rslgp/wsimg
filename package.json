@@ -1,19 +1,22 @@
 {
-  "name": "static-heroku-nodejs",
+  "name": "wsimg",
   "version": "0.0.0",
-  "description": "static-heroku-nodejs\r ====================",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Yankovsky/static-heroku-nodejs.git"
+  "license": "MIT",
+  "dependencies": {
+    "element-ui": "^2.4.4",
+    "vue": "^2.5.16"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yankovsky/static-heroku-nodejs/issues"
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
   },
-  "homepage": "https://github.com/Yankovsky/static-heroku-nodejs"
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
